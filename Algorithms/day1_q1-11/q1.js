@@ -14,14 +14,14 @@
             a = 4
             b = 3
 
-            let stars = ''
+            let stars = '' 
 
-            for (i=0; i<a; i++) {
-                stars += '*'
+            for (i=0; i<a; i++) {  // a에 주어진 수 만큼
+                stars += '*'  // stars에 '*' 을 한개씩 추가한다
             }
 
-            for (i=0; i<b; i++) {
-                console.log(stars)
+            for (i=0; i<b; i++) { // b에 주어진 수 만큼
+                console.log(stars) //  stars를 출력한다!
             }
     
 // });

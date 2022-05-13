@@ -12,13 +12,13 @@
 //   return answer;
 // }
 
-let num = 0; 
+let num = 1; 
 let answer = '';
 
-if ( num % 2 === 0 ) {
-  answer = 'Even'
-} else {
-  answer = 'Odd'
+if ( num % 2 === 0 ) {  // 받아온 숫자를 2로 나눠서 나머지가 0이면!
+  answer = 'Even' // 짝수이다
+} else { // 아니라면
+  answer = 'Odd' // 홀수이다.
 }
 
 console.log(answer)

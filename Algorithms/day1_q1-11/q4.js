@@ -17,17 +17,17 @@ let a = 5
 let b = 3
 let answer = 0
 
-if (a >= b) {
-  let num = a - b
+if (a >= b) { // a가 b보다 크거나 같으면
+  let num = a - b  // a에서 b를 빼고
 
-  for (i=0; i<=num; i++) {
-    answer += b + i
+  for (i=0; i<=num; i++) { // 그 횟수만큼 반복해서
+    answer += b + i // answer에 b와 i를 더한다~
   }
 
-} else {
-  let num = b - a
+} else { // b가 더 크다면 반대로 b에서 a빼기
+  let num = b - a 
   
   for (i=0; i<=num; i++) {
-    answer += a + i
+    answer += a + i 
   }
 }
