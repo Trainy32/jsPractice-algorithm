@@ -14,7 +14,7 @@ console.log(answer)
 
 // // 여기서.. COUNT를.. 프로그램이 알아서 계산하게 만들고 싶었어요.... 
 
-let monthDays = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+let monthDays = [0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30]
 let dayIs2 = ['THU', 'FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED'] 
 let thisMonth = monthDays.slice(0,a).reduce(function(sum,days){return sum+days})
 
