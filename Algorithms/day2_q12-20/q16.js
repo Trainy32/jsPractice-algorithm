@@ -10,5 +10,9 @@
 
 let answer = 0;
 
+s = "pPoooyY"
+d = "Pyy"
 
-console.log(answer)
+
+console.log(s.toLowerCase().split('p').length == s.toLowerCase().split('y').length) 
+// 비교하기 편하게 모두 소문자로 바꾼 뒤, p를 기준으로 split 했을때와 y를 기준으로 split했을때의 길이를 비교한다

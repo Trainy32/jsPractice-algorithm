@@ -8,14 +8,13 @@ let count = 4
 let answer = 0;
 let totalPrice = 0;
 
-for (let i = 0; i <= count; i ++) {  // count 횟수만큼
-  totalPrice += price * i  //
-  console.log(totalPrice)
+for (let i = 0; i <= count; i ++) {  //놀이 기구를 탈 횟수만큼 
+  totalPrice += price * i   // 총 가격에 가격*횟수를 더해넣는다
 }
 
-answer = totalPrice - money
+answer = totalPrice - money // 총 가격에서 가진 돈을 빼면 부족한 돈이 나오고
 
-if (answer < 0) { answer = 0 }
+if (answer < 0) { answer = 0 } // 남는 돈이 생기면 값을 0으로 돌려줌!
 
 console.log(answer)
 

@@ -5,7 +5,7 @@ let participant = ["leo", "kiki", "eden"]
 let	completion = ["eden", "kiki"]
 
 // for (i=0; i<completion.length; i++) {
-//   participant.splice(participant.indexOf(completion[i]),1)
+//   participant.splice(participant.indexOf(completion[i]),1) 
 // }
 
 
@@ -14,13 +14,13 @@ let	completion = ["eden", "kiki"]
 
 let answer = ''
 
-participant.sort();
+participant.sort(); //먼저 비교하기 편하게 두 배열 모두 알파벳순 정렬해준다
 completion.sort();
 
-for (i=0; i<participant.length; i++) {
-  if (participant[i] != completion[i]) {
-    answer = participant[i] 
-    break; 
+for (i=0; i<participant.length; i++) { //참가자 수만큼 돌린다 
+  if (participant[i] != completion[i]) { // i번째의 참가자가 i번째 완주자와 이름이 다르면
+    answer = participant[i] // 그 사람이 완주하지 못한 사람!
+    break; // 불필요하게 프로그램이 돌아가지 않게 찾는 즉시 종료시킨다
   }
 }
 
