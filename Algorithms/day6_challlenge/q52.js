@@ -39,37 +39,6 @@ for (n of numbers) {
   }
 }
 
-// answer = answer.join('')
+answer = answer.join('')
 
 console.log(answer)
-
-
-// let l_arr = [1, 2, 5, 4, 7, 8, 0, '*']
-// let r_arr = [2 ,3, 6, 5, 8, 9, '#' ,0] 
-// let l_now = '*'
-// let r_now = '#'
-
-// hand = hand === "left" ? 'L' : 'R'
-
-// for (n of numbers) {
-//   if ([1,4,7].includes(n)) {
-//     answer.push('L')
-//     l_now = n
-//   } else if ([3,6,9].includes(n)) {
-//     answer.push('R')
-//     r_now = n
-//   } else {
-//     let l_distance = Math.abs(l_arr.indexOf(l_now) - l_arr.indexOf(n))
-//     let r_distance = Math.abs(r_arr.indexOf(r_now) - r_arr.indexOf(n))
-//     let finger = l_distance === r_distance ? hand : l_distance > r_distance ? 'R' : 'L'
-//     if (finger === 'L') { l_now = n }
-//     else { r_now = n }
-//     answer.push(finger)
-//   }
-
-//   console.log(n)
-//   console.log(l_now)
-//   console.log(r_now)
-//   console.log('---------------------------')
-
-// }
